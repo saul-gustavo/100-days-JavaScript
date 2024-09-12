@@ -1,0 +1,114 @@
+*,
+*::after,
+*::before { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #032a74;
+    color: #fff;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.player-album-art {
+    width: 90%;
+}
+
+.player-display-song-artist {
+    padding: 2rem;
+    display: block;
+}
+
+.previous, .next,
+.pause, .play {
+    width: 100%;
+    max-width: 17%;
+    display: inline-block;
+    margin: 20px 0px;
+}
+
+#previous, #next,
+#pause, #play, #shuffle {
+    font-size: 30px;
+    padding: 1px 1rem;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.previous {
+    transform: rotate(180deg);
+}
+
+.playlist {
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.playlist-song {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+}
+
+.playlist-song-info span {
+    cursor: pointer;
+}
+
+.playlist-song-info {
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    width: 100%;
+    padding: 3px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.playlist-song-delete {
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: #ffff;
+    cursor: pointer;
+}
+
+.menu {
+    margin-top: 30px;
+    border: 1px solid purple;
+    padding: 10px;
+}
+
+.menu-lista {
+    list-style: none;
+}
+
+.img-album {
+    width: 200px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+}

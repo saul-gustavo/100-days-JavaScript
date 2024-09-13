@@ -8,3 +8,4 @@
 | 4   | Juego Piedra, Papel, Tijeras | [Link](https://github.com/saul-gustavo/100-days-JavaScript/tree/main/Dia-4-Juego-P-P-T)|
 | 5   | Music App | [Link](https://github.com/saul-gustavo/100-days-JavaScript/tree/main/Dia-5-MusicApp)|
 | 6   | Palindromo | [Link](https://github.com/saul-gustavo/100-days-JavaScript/tree/main/Dia-6-Palindromo)|
+| 7   | Formato Fechas | [Link](https://github.com/saul-gustavo/100-days-JavaScript/tree/main/Dia-7-Fechas)|

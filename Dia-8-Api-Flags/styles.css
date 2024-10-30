@@ -1,0 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0rem 2rem;
+}
+
+.main .title {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+li {
+    display: inline-flex;
+    align-items: center;
+    gap: 2rem;
+}
